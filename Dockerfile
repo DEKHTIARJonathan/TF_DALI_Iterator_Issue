@@ -10,7 +10,7 @@ RUN pip install --no-cache --no-cache-dir \
       nvidia-dali-cuda110 && \
     pip install --no-cache --no-cache-dir \
       --extra-index-url https://developer.download.nvidia.com/compute/redist \
-      nvidia-dali-tf-plugin-cuda110 && \
+      nvidia-dali-tf-plugin-cuda110
 
 WORKDIR /workspace
 COPY main.py .
